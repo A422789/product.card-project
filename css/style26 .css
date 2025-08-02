@@ -1,0 +1,114 @@
+*{
+    font-family: sans-serif;
+    font-size: large;
+}
+
+
+.parent{
+   margin: 10px auto;
+   width: 550px;
+   height: 250px;
+   text-align: center;
+   position: relative;
+}
+.one{
+    background-color: rgb(237, 237, 237);
+    width: 150px;
+    height: 80%;
+    position: absolute;
+    top: 15px;
+    left: 100px;
+    border-radius: 10px;
+    position: relative;
+
+}
+.two{
+    background-color:  rgb(237, 237, 237);
+    width: 150px;
+    height: 80%;
+    position: absolute;
+    top: 15px;
+    right: 100px;
+    border-radius: 10px;
+}
+.basic{
+    border-radius: 5px;
+    background-color: rgb(20, 182, 247);
+    height: 30px;
+    width: 120px;
+    border: none;
+    color: white;
+    position: relative;
+    top: 20px;
+}
+.free{
+    position: relative;
+    top: 40px;
+    left:18px;
+    background-color:  rgba(20, 183, 247, 0.266);
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-transform:capitalize ;
+
+}
+.pro{
+    border-radius: 5px;
+    background-color: rgb(20, 182, 247);
+    height: 30px;
+    width: 120px;
+    border: none;
+    color: white;
+    position: relative;
+    top: 20px;
+}
+.money{
+    position: relative;
+    top: 40px;
+    left:18px;
+    background-color: rgba(20, 183, 247, 0.266);
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-transform:capitalize ;
+}
+button:hover{
+    background-color: rgba(20, 183, 247, 0.534) ;
+    cursor:;
+}
+.one::after{
+    content: "";
+    background-color: rgba(0, 132, 255, 0.538);
+    height: 90%;
+    width: 1px;
+    position: absolute;
+    right: -25px;
+    top: 5%;
+}
+
+.free::after{
+    content: "or";
+    background-color: rgb(20, 182, 247);
+    font-size: 10px;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    color: white;
+    position: absolute;
+    right: -47px;
+    top: 20px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    z-index: 2;
+}
